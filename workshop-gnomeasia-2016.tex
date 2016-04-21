@@ -1,0 +1,315 @@
+\documentclass{beamer}
+
+\include{gnomeasia-theme}
+
+\usepackage[english]{babel}
+\usepackage{listings}
+\lstset{basicstyle=\footnotesize}
+% or whatever
+
+\usepackage[latin1]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\title%[Short Paper Title] (optional, use only with long paper titles)
+{Contribute to Free software}
+
+%\subtitle
+%{Include Only If Paper Has a Subtitle}
+
+\author
+{Ekaterina Gerasimova, \texttt{kat@gnome.org}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\date%[GNOME.Asia 2016] % (optional, should be abbreviation of conference name)
+{GNOME.Asia Summit 2016}
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+%\subject{Theoretical Computer Science}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Contribute to Free software}
+
+\subsection{Why are you here?}
+
+\begin{frame}{What is Free software?}
+  \begin{itemize}
+    \item
+      You can use it in any way you wish
+    \item
+      You can fix it or change it
+    \item
+      You can share it with your friends and family
+    \item
+      You can make it better and then share it
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Why do you want to contribute?}
+% Ask the audience
+\visible<2->{
+  \begin{itemize}
+    \item
+      Learn new skills
+    \item
+      Experience a real working environment
+    \item
+      Work with people from all over the world
+    \item
+      See real people use what you've made
+    \item
+      Include it on your CV
+    \item
+      You believe in the philosophy
+  \end{itemize}
+  }
+\end{frame}
+
+\begin{frame}{How can you contribute?}
+% Ask the audience
+\visible<2->{
+  \begin{itemize}
+    \item
+      Code
+    \item
+      Design
+    \item
+      Websites
+    \item
+      Engagement/promotion/marketing
+    \item
+      Document
+    \item
+      Accessibility
+    \item
+      Translate
+    \item
+      Test
+    \item
+      Educate
+    \item
+      Organise events
+    \item
+      Help others become contributors
+  \end{itemize}
+  }
+%Attend events, join/run LUGs and special interests groups
+\end{frame}
+
+
+\section{Start contributing}
+
+\subsection{How can you contribute?}
+
+\begin{frame}[fragile,plain]{Get started!}
+  \pgfdeclareimage[width=10cm]{newcomers}{newcomers}
+  \center{\pgfuseimage{newcomers}}
+\end{frame}
+
+\begin{frame}[fragile,plain]{The release cycle}
+  \pgfdeclareimage[width=11cm]{release-process}{release-process2}
+  \center{\pgfuseimage{release-process}}
+\end{frame}
+
+\begin{frame}{Make a contribution}
+  \pgfdeclareimage[height=4.5cm]{bad-flowchart}{bad-flowchart.pdf}
+  \center{\pgfuseimage{bad-flowchart}}
+  % If you think the first step towards contributing is sending in a patch, you're probably wrong.
+\end{frame}
+
+\begin{frame}{It's all about the people}
+  \begin{itemize}
+  \item
+    Talk to people\ldots
+    \begin{itemize}
+    \item
+      IRC
+    \item
+      Mailing lists
+    \item
+      Here and now
+    \end{itemize}
+  \item
+    Use available resources
+  \item
+    Ask for help
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Etiquette}
+  \begin{itemize}
+  \item
+    Assume people mean well
+  \item
+    Try to be concise
+  \item
+    Be patient and generous
+  \item
+    Be respectful and considerate
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Workflow}
+  \begin{columns}
+  \column{.45\textwidth}
+    \begin{itemize}
+    \item
+      Find out about the project workflow and follow it
+      \begin{itemize}
+      \item
+        \alert<2>{Bugzilla}
+      \item
+        \alert<3>{Mailing lists}
+      \item
+        \alert<4>{IRC}
+      \item
+        \alert<5>{Email}
+      \item
+        \alert<6-6>{Face-to-face meetings}
+      \end{itemize}
+    \item
+      Build and test
+    \end{itemize}
+  \column{.55\textwidth}
+  \only<1>{
+    \pgfdeclareimage[height=4.3cm]{question}{question}
+    \center{\pgfuseimage{question}}
+    }
+  \only<2>{
+    \pgfdeclareimage[height=4.3cm]{bugs}{bugs}
+    \center{\pgfuseimage{bugs}}
+    }
+  \only<3>{
+    \pgfdeclareimage[height=4.3cm]{mail}{mail}
+    \center{\pgfuseimage{mail}}
+    }
+  \only<4>{
+    \pgfdeclareimage[height=4.3cm]{irc}{irc}
+    \center{\pgfuseimage{irc}}
+    }
+  \only<5>{
+    \pgfdeclareimage[height=4.3cm]{email}{email}
+    \center{\pgfuseimage{email}}
+    }
+  \only<6>{
+    \pgfdeclareimage[height=4.3cm]{guadec}{guadec}
+    \center{\pgfuseimage{guadec}}
+    }
+  \end{columns}
+\end{frame}
+
+\begin{frame}{How things happen}
+  \pgfdeclareimage[height=4.5cm]{good-flowchart}{good-flowchart.pdf}
+  \center{\pgfuseimage{good-flowchart}}
+\end{frame}
+
+\begin{frame}{Followup}
+  \begin{itemize}
+  \item
+    Be patient
+  \item
+    Follow up with the reviewer
+  \item
+    Follow up on the review
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Make good contributions}
+  \begin{itemize}
+  \item
+    Use the reviewer's time well
+  \item
+    Keep to the style of the project
+  \item
+    Follow the review process
+  \item
+    Respond in a timely manner
+  \item
+    Write good commit messages
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Experience and growth}
+  \begin{itemize}
+  \item
+    The more you contribute, the more you communicate with people
+  \item
+    The more you communicate, the more you become part of the community
+  \item
+    Once you are part of the community, you can become a Foundation member
+  \end{itemize} 
+  \begin{itemize}
+  \item
+    Help others?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Internships}
+  \pgfdeclareimage[width=10cm]{gsoc}{gsoc.jpg}
+  \center{\pgfuseimage{gsoc}}
+  \pgfdeclareimage[width=10cm]{outreachy}{outreachy.png}
+  \center{\pgfuseimage{outreachy}}
+\end{frame}
+
+\begin{frame}{Summary}
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{passion} for a FLOSS project comes from your personal interest in the project
+  \item
+    \alert{Collaborate} with others and \alert{learn together} to get ahead
+  \item
+    \alert{Explore} other projects
+  \end{itemize}
+  
+  With special thanks to
+  \begin{itemize}
+  \item
+    Andr\'{e} \v{C}. Klapper, \texttt{ak-47@gmx.net} 
+  \item
+    Sindhu S, \texttt{sindhus@gnome.org}
+  \end{itemize}
+\end{frame}
+
+% All of the following is optional and typically not needed. 
+\section<presentation>*{Resources}
+\subsection<presentation>*{Resources}
+
+\begin{frame}{Resources}
+    
+  \begin{thebibliography}{10}
+
+  \bibitem{code}
+    Start contributing:
+    \newblock https://www.gnome.org/get-involved/
+  \bibitem{code}
+    Source code:
+    \newblock https://git.gnome.org/
+  \bibitem{code}
+    Bugzilla:
+    \newblock https://bugzilla.gnome.org/
+  \bibitem{code}
+    Mailing lists:
+    \newblock https://mail.gnome.org
+  \bibitem{code}
+    IRC:
+    \newblock https://wiki.gnome.org/IRC
+
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
